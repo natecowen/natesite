@@ -1,0 +1,60 @@
+# Header
+menu:
+  Home: /
+  Resume: /Resume
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+    about: Hi, I'm Nate. I create code. I work mainly in front-end, but I'm developing my full-stack skillset. <br/><br/>I'm fascinated by data science, programming, and tech in general.
+    tags: true
+    skills: HTML, CSS, Design, Development, Web Marketing, Digital Concept Creation, Junior Level Programming (C#, VBA, PHP, AS3)
+    learning: 
+    
+        - topic: Static Site Generators (Hexo)
+          percent: 35%
+        
+        - topic: Bootstrap
+          percent: 25%
+          
+        - topic: Node.js
+          percent: 15%
+          
+        - topic: Advanced Programming Concepts and Terminology
+          percent: 20%
+          
+        - topic: Git/Version Control
+          percent: 65%
+          
+        - topic: Unit Testing
+          percent: 1 %  
+          
+    
+
+
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

@@ -1,0 +1,26 @@
+<% if(theme.widgets.learning){ %>
+    <div class="sidebar-module sidebar-module-inset">
+        <h4>Currently Working On</h4>
+       
+        
+        <% for(var i=0; i<theme.widgets.learning.length; i++) { %>
+      
+            <p><%= theme.widgets.learning[i].topic %></p>
+           
+       		<div class="progress ">
+  				<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: <%= theme.widgets.learning[i].percent %>;">
+
+  				</div>
+			</div>
+    	<% } %>
+        
+        
+
+        
+     
+       
+     
+        
+    </div>
+<% } %>
+
